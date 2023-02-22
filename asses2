@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a=1,es=0,os=0,n;
+	scanf("%d",&n);
+    while(a<=n)
+    {
+    	if(a%2==0)
+    	es=es+a;
+    	else
+    	os=os+a;
+    	a=a+1;
+	}
+	printf("%d",os-es);
+	
+}
